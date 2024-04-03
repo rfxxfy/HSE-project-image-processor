@@ -1,0 +1,15 @@
+add_executable(
+    image_processor
+    image_processor.cpp
+    parser/arg_parser.cpp
+    parser/arg_parser.h
+    objects/pixel/pixel.cpp
+    objects/pixel/pixel.h
+    objects/Image/image.cpp
+    objects/Image/image.h
+    filters/filters.cpp
+    writer/writer.cpp
+    writer/writer.h
+    reader/reader.cpp
+    reader/reader.h
+)
